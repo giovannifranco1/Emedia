@@ -1,0 +1,77 @@
+@charset= "UTF-8";
+
+h1{
+	background-color: #123;
+	color: white;
+	font-family: arial;
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	
+}
+body{
+	font-family: arial;
+	background-color: white;
+}
+
+table {
+	margin: 200px auto 0 auto;
+	border: solid 2px grey;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 20px;
+	
+}
+textarea{
+	padding: 1% 2%;
+	margin-top: 2%;
+	border: 1px solid #000000;
+    background:#cccccc;
+    width:300px;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    font-size: 12pt;
+    font-family: Arial;
+}
+table > tbody > tr {
+	
+}
+
+input[type=text]{   
+	padding: 0 2%;
+	margin-top: 1%;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+    width:300px;
+    height: 35px;
+    font-size: 12pt;
+    
+}
+
+
+
+input[type=text]:hover, textarea:hover{ 
+	background: #fff; border:1px solid #123;
+}
+input[type=submit]{
+	width: 6.5%;
+	height: 30px;
+	margin: 5px 635px;
+	font-family: Arial;
+}
+input[type=submit]:hover{
+	color:#123;
+}
+
+

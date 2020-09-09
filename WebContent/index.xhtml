@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<title>Login do sistema</title>
+	<h:outputStylesheet library="css" name="style.css" />
+</h:head>
+<h:body>
+	<h1>Login do sistema</h1>
+	<h:form>
+		
+			<h:panelGrid columns="2">
+				<h:outputLabel value="Usuario:" />
+				<h:inputText value="#{login.usuario}" />
+				<h:outputLabel value="E-mail:" />
+				<h:inputText value="#{login.email}" />
+				<h:outputLabel value="menssagem de texto:" />
+				<h:inputTextarea value="#{login.texto}" />
+
+			</h:panelGrid>
+			<h:commandButton value="Enviar" actionListener="#{login.enviar()}" />
+			<h:commandButton value="Limpa" actionListener="#{login.limpar()}" />
+		
+	</h:form>
+</h:body>
+</html>
